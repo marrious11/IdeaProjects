@@ -1,5 +1,4 @@
- Here's an example of a documentation file for the capstone game:
-
+ 
 # Capstone Game Documentation
 
 ## Overview
