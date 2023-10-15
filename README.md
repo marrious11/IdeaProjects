@@ -35,8 +35,20 @@ The Capstone Game is released under the [MIT License](https://github.com/marriou
 
 ---
 
-And here's an example of a README.md file for the capstone game:
-
 # Capstone Game
 
-![Game Screenshot]()## DescriptionThe Capstone Game is an exciting RPG where players embark on an epic adventure, battling dragons, exploring dungeons, and collecting treasures. Customize your character, complete quests, and level up to become a legendary hero!## Features- Create and customize your own unique character.- Engage in thrilling turn-based battles against dragons and other enemies.- Explore diverse environments, uncover hidden treasures, and solve puzzles.- Manage your inventory of weapons, armor, and potions.- Progress through a captivating storyline with branching narratives.- Interact with NPCs who provide quests and contribute to the game's lore.- Level up your character, unlocking new abilities and skills.- Enjoy stunning visuals and immersive sound effects.- Available on Windows, Mac, and Linux.## Installation1. Download the latest release from the [Releases](https://github.com/marrious11/capstone-game/releases) page.2. Extract the downloaded archive to your desired location.3. Launch the game executable for your operating system.## Controls- Arrow Keys: Move character.- Spacebar: Interact with objects and NPCs.- A: Attack in battle.- I: Open inventory.- Esc: Pause game and open menu.## Feedback and Bug ReportsIf you encounter any issues or have suggestions for improvement, please [open an issue](https://github.com/marrious11/capstone-game/issues) on the GitHub repository.## Contributing We welcome contributions from the community. If you would like to contribute, please follow the guidelines outlined in the [CONTRIBUTING.md](https://github.com/marrious11/capstone-game/blob/main/CONTRIBUTING.md) file.## LicenseThis project is licensed under the [MIT License](https://github.com/marrious11/capstone-game/blob/main/LICENSE).---Feel free to customize the documentation and README.md file according to your specific game requirements and preferences.
+![Game Screenshot]()
+## Description
+The Capstone Game is an exciting RPG where players embark on an epic adventure, battling dragons, exploring dungeons, and collecting treasures. Customize your character, complete quests, and level up to become a legendary hero!
+## Features
+- Create and customize your own unique character.- Engage in thrilling turn-based battles against dragons and other enemies.- Explore diverse environments, uncover hidden treasures, and solve puzzles.- Manage your inventory of weapons, armor, and potions.- Progress through a captivating storyline with branching narratives.- Interact with NPCs who provide quests and contribute to the game's lore.- Level up your character, unlocking new abilities and skills.- Enjoy stunning visuals and immersive sound effects.- Available on Windows, Mac, and Linux.
+## Installation1. 
+Download the latest release from the [Releases](https://github.com/marrious11/capstone-game/releases) page.2. Extract the downloaded archive to your desired location.3. Launch the game executable for your operating system.
+## Controls
+- Arrow Keys: Move character.- Spacebar: Interact with objects and NPCs.- A: Attack in battle.- I: Open inventory.- Esc: Pause game and open menu.
+## Feedback and Bug Reports
+If you encounter any issues or have suggestions for improvement, please [open an issue](https://github.com/marrious11/capstone-game/issues) on the GitHub repository.
+## Contributing 
+We welcome contributions from the community. If you would like to contribute, please follow the guidelines outlined in the [CONTRIBUTING.md](https://github.com/marrious11/capstone-game/blob/main/CONTRIBUTING.md) file.
+## License 
+This project is licensed under the [MIT License](https://github.com/marrious11/capstone-game/blob/main/LICENSE).---Feel free to customize the documentation and README.md file according to your specific game requirements and preferences.
