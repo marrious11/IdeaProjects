@@ -37,7 +37,7 @@ The Capstone Game is released under the [MIT License](https://github.com/marriou
 
 # Capstone Game
 
-![Game Screenshot]()
+![Game Screenshot](./src/main/resources/RPG-test.PNG)
 ## Description
 The Capstone Game is an exciting RPG where players embark on an epic adventure, battling dragons, exploring dungeons, and collecting treasures. Customize your character, complete quests, and level up to become a legendary hero!
 ## Features
