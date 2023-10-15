@@ -1,0 +1,7 @@
+<dependencies>
+  <dependency>
+    <groupId>org.plmeetup23</groupId>
+    <artifactId>commons-lang3</artifactId>
+    <version>1.0.0</version>
+  </dependency>
+</dependencies>
