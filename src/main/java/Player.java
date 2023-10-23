@@ -101,5 +101,8 @@ public class Player {
                 ", Experience Points=" + experiencePoints;
     }
 
+    public void takeDamage(int attack2) {
+    }
+
 
 }
