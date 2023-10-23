@@ -4,13 +4,13 @@ import java.util.Random;
 
 public class Dragon {
     // Class members
-    private String color;
-    private int level;
+    private final String color;
+    private final int level;
     private int health;
-    private int attack;
-    private int defense;
+    private final int attack;
+    private final int defense;
 
-     // Method accessible from other classes
+    // Method accessible from other classes
 
     public Dragon(String color, int level) {
         this.color = color;
@@ -18,6 +18,29 @@ public class Dragon {
         health = level * 100;
         attack = level * 10;
         defense = level * 5;
+    }
+
+    /*public void takeDamage(int damage) {
+        health -= damage;
+    }*/
+    public static Dragon generateRandomDragon(int choice) {
+        Random random = new Random();
+        int level = random.nextInt(5) + 1;
+
+        switch (choice) {
+            case 1:
+                return new Dragon("Green", level);
+            case 2:
+                return new Dragon("Blue", level);
+            case 3:
+                return new Dragon("Red", level);
+            case 4:
+                return new Dragon("Black", level);
+            case 5:
+                return new Dragon("Gold", level);
+            default:
+                return null;
+        }
     }
 
     public String getColor() {
@@ -50,29 +73,6 @@ public class Dragon {
         player.takeDamage(attack);
     }
 
-    /*public void takeDamage(int damage) {
-        health -= damage;
-    }*/
-    public static Dragon generateRandomDragon(int choice) {
-        Random random = new Random();
-        int level = random.nextInt(5) + 1;
-
-        switch (choice) {
-            case 1:
-                return new Dragon("Green", level);
-            case 2:
-                return new Dragon("Blue", level);
-            case 3:
-                return new Dragon("Red", level);
-            case 4:
-                return new Dragon("Black", level);
-            case 5:
-                return new Dragon("Gold", level);
-            default:
-                return null;
-        }
-    }
-
     @Override
     public String toString() {
         return "Dragon Stats: " +
@@ -90,5 +90,5 @@ public class Dragon {
         return 0;
     }
 
-   
+
 }

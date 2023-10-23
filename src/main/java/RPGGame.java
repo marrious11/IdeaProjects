@@ -1,9 +1,6 @@
 package main.java;
-import java.util.*;
-//import java.util.Random;
+
 import java.util.Scanner;
-//import main.java.Dragon;
-//import main.java.Player;
 
 public class RPGGame {
     public static void main(String[] args) {
@@ -19,7 +16,7 @@ public class RPGGame {
             System.out.println("3. Dragon Cave");
             System.out.println("4. Exit");
 
-          final int choice = scanner.nextInt();
+            int choice = scanner.nextInt();
             scanner.nextLine(); // Consume the newline character
 
             switch (choice) {
@@ -86,7 +83,7 @@ public class RPGGame {
             System.out.println("\nSelect an option:");
             System.out.println("1. Buy");
             System.out.println("2. Sell");
-            System.out.println("3. Exit");
+            System.out.println("3. Exit\n");
 
             int choice = scanner.nextInt();
             scanner.nextLine(); // Consume the newline character
@@ -96,7 +93,7 @@ public class RPGGame {
                     System.out.println("\nSelect an item type to buy:");
                     System.out.println("1. Weapon");
                     System.out.println("2. Armor");
-                    System.out.println("3. Potion");
+                    System.out.println("3. Potion\n");
 
                     int itemType = scanner.nextInt();
                     scanner.nextLine(); // Consume the newline character
@@ -127,7 +124,7 @@ public class RPGGame {
         System.out.println("2. Blue");
         System.out.println("3. Red");
         System.out.println("4. Black");
-        System.out.println("5. Gold");
+        System.out.println("5. Gold\n");
 
         int choice = scanner.nextInt();
         scanner.nextLine(); // Consume the newline character
@@ -174,6 +171,7 @@ public class RPGGame {
                     break;
             }
 
+            assert dragon != null;
             if (dragon.getHealth() <= 0) {
                 System.out.println("Congratulations! You defeated the dragon.");
                 int goldCoins = dragon.getLevel() * dragon.getStrength() * 10;
@@ -186,11 +184,10 @@ public class RPGGame {
         }
     }
 
-    
 
     private static Dragon generateRandomDragon(int choice) {
         return null;
     }
 
-   
+
 }
